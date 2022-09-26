@@ -86,3 +86,58 @@
     font-weight: 700;
     margin: 1rem 0;
 }
+
+.produtos__secao{
+    padding: 4rem 10rem;
+}
+
+
+
+.secao__titulo{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.secao__ver-tudo{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #2A7AE4;
+}
+
+.icone{
+    margin-left: 0.8rem;
+    width: 1rem;
+}
+
+.produtos__exibidos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+
+.produto__imagem{
+    width: 11.2rem;
+
+}
+
+.produto__titulo{
+    color: #464646;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.produto__valor{
+    font-weight: 700;
+    color: #464646;
+    margin: 0.5rem 0;
+}
+
+.produto__link{
+    color: #2A7AE4;
+    font-weight: 700;
+}
+
+
