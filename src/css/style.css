@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+
+
+.cabecalho__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32.5px 0 ;
+}
+
+.nav__esquerda{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.form__busca{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 11px;
+    width: 393px;
+}
+
+.form__busca input{
+    border: none;
+    background-color: #F5F5F5;
+    width: 90%;
+}
+.form__busca input:focus{
+    box-shadow: none;
+    outline: 0;
+}
+
+.btn{
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    padding: 1rem;
+    cursor: pointer;
+    text-align: center
+}
+.btn--bg-branco{
+    padding:16px 70px ;
+}
+
+.btn--bg-azul{
+    background-color: #2A7AE4;
+    color: white;
+}
+.banner{
+    position: relative;
+    color: white;
+}
+
+.banner__imagem{
+    min-width: 100vw;
+}
+
+.banner__texto{
+    position: absolute;
+    left: 9.5rem;
+    bottom: 2rem;
+    
+}
+
+.banner__titulo{
+    font-weight: 700;
+    font-size: 3.25rem;
+}
+
+.banner__paragrafo{
+    font-weight: 700;
+    margin: 1rem 0;
+}
