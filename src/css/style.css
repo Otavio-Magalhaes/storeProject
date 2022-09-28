@@ -87,10 +87,14 @@
     margin: 1rem 0;
 }
 
+
 .produtos__secao{
-    padding: 4rem 10rem;
+    padding: 0 10rem;
 }
 
+.produtos{
+    padding-top: 4rem;
+}
 
 
 .secao__titulo{
@@ -114,12 +118,12 @@
 .produtos__exibidos{
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1.2rem;
 }
 
 
 .produto__imagem{
-    width: 11.2rem;
+    width: 9.7rem;
 
 }
 
