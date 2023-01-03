@@ -1,0 +1,36 @@
+.cabecalho__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32.5px 0 ;
+}
+
+.nav__esquerda{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.form__busca{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 11px;
+    width: 393px;
+}
+
+.form__busca input{
+    border: none;
+    background-color: #F5F5F5;
+    width: 90%;
+}
+.form__busca input:focus{
+    box-shadow: none;
+    outline: 0;
+}
+.form__busca img{
+    cursor: pointer;
+}

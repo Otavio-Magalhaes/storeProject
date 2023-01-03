@@ -1,0 +1,45 @@
+*{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.conteudo__principal{
+    padding: 5.75rem 0rem;
+    align-items: center;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form__login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.login__titulo{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.login__input{
+    width: 30vw;
+    height: 3.9rem;
+    border: none;
+    border-bottom: 1px solid #C8C8C8
+    ;
+}
+
+.login__input::placeholder{
+    padding-left: .7rem;
+    font-size: 1rem;
+    color: #A2A2A2;
+}
+
+.form__login button{
+    align-self: stretch;
+}

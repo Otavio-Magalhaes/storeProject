@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store |  Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/cabecalho.css">
+    <link rel="stylesheet" href="src/css/rodape.css">
+    <link rel="stylesheet" href="src/css/botao.css">
+    <link rel="stylesheet" href="src/css/login/login.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__nav">
+            <div class="nav__esquerda">
+                <a href="index.html"><img src="src/img/logo.svg" alt="logo da Alura Geek"></a>
+                <form>
+                    <div class="form__busca">
+                        <input type="text" placeholder="O que deseja encontrar?">
+                        <img src="src/img/iconeBusca.svg" alt="icone de busca">
+                    </div>
+                </form>
+            </div>
+            <a href="#" class="btn btn--bg-branco hidde">Login</a>
+        </nav>   
+    </header>
+
+    <main class="conteudo__principal">
+        <form class="form__login">
+            <legend class="login__titulo">Iniciar Sessão</legend>
+
+            <input type="text" placeholder="Digite seu e-mail" class="login__input">
+            <input type="password" placeholder="Digite sua senha"class="login__input">
+
+            <button class="btn btn--bg-azul">Entrar</button>
+
+        </form>
+    </main>
+
+
+
+
+
+
+
+
+    <footer class="rodape">
+        <section class="caixa">
+            <a href="index.html"><img src="src/img/logoRodape.png" class="rodape__logo"></a>
+            <div class="infos">
+                <ul class="info__lista">
+                    <li><a href="#" class="infos__link">Quem somos nós</a></li>
+                    <li><a href="#" class="infos__link">Politica de privacidade</a></li>
+                    <li><a href="#" class="infos__link">Programa de fidelidade</a></li>
+                    <li><a href="#" class="infos__link">Nossas lojas</a></li>
+                    <li><a href="#" class="infos__link">Quero ser franquiado</a></li>
+                    <li><a href="#" class="infos__link">Anuncie Aqui</a></li>
+                </ul>
+            </div>
+            <div class="fale-conosco">
+                <p class="fale-conosco__titulo">Fale conosco</p>
+                <form class="fomulario">
+                    <div class="box box-nome">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" class="input__nome">
+                    </div>
+                    <div class="box box-mensagem">
+                        <label for="mensagem">Escreva sua mensagem</label>
+                        <textarea name="mensagem" id="mensagem" cols="60" rows="20"></textarea>
+                    </div>                
+                </form>
+                <button class="btn btn--bg-azul">Eviar mensagem</button>
+            </div>
+        </section>
+        <p class="credito">Desenvolvido por <a  href="https://github.com/Otavio-Magalhaes" target="_blank">Otavio Magalhães</a></p>
+    </footer>
+
+</body>
+</html>

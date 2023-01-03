@@ -1,0 +1,21 @@
+.btn{
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    padding: 1rem;
+    cursor: pointer;
+    text-align: center
+}
+.btn--bg-branco{
+    padding:16px 70px ;
+}
+
+.btn--bg-azul{
+    padding: 1rem 2rem; 
+    background-color: #2A7AE4;
+    color: white;
+    font-size: 1rem;
+}
+
+.hidde{
+    visibility: hidden;
+}

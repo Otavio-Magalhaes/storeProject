@@ -1,0 +1,95 @@
+.caixa{
+    align-items: flex-start;
+    background-color: #EAF2FD;
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    padding: 4rem 9.5rem;
+}
+
+.rodape__logo{
+    max-width: 11rem;
+    max-height: 3.125rem;
+}
+
+.infos{
+    align-items: flex-start;
+
+}
+.info__lista{
+    display: flex;
+    flex-direction: column  ;
+    gap: 1.25rem;
+}
+
+.infos__link{
+    color: #464646;
+    font-weight: 500;
+}
+
+.fale-conosco__titulo{
+    font-weight: 700;
+}
+
+.fomulario{
+    margin-top: 1rem;
+}
+
+.box{
+    background-color: #FFF;
+    margin-bottom: 1rem;
+    position: relative;
+    width: 28.125rem;
+}
+
+.box-nome{
+    height: 3.5rem;
+}
+
+.box-mensagem{
+    height: 5.125rem;
+}
+
+.box label{
+    color: #A2A2A2;
+    position: absolute;
+    left: .5rem;
+    top: .5rem;
+}
+
+.box input, 
+.box textarea{
+    border: none;
+    font: 1.3rem;
+    width: 27rem;
+    position: absolute;
+    left: .5rem;
+    top: 1.75rem;
+}
+.box input:focus,
+textarea:focus{
+    box-shadow: none;
+    outline: 0;
+}
+
+.box textarea{
+    height: 3rem;
+    resize: none;
+}
+
+.input__nome{
+    height: 1.5rem;
+}
+
+
+
+.credito{
+    padding: 1.5rem;
+    text-align: center;
+    
+}
+.credito a{
+    color: #464646;
+    display: block;
+    font-weight: 700;
+}

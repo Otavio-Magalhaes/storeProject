@@ -5,30 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geek store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/cabecalho.css">
+    <link rel="stylesheet" href="src/css/produtos.css">
+    <link rel="stylesheet" href="src/css/rodape.css">
+    <link rel="stylesheet" href="src/css/botao.css">
 </head>
 
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__nav">
             <div class="nav__esquerda">
-                <img src="./img/logo.svg" alt="logo da Alura Geek">
+                <a href="index.html"><img src="src/img/logo.svg" alt="logo da Alura Geek"></a>
                 <form>
                     <div class="form__busca">
                         <input type="text" placeholder="O que deseja encontrar?">
-                        <img src="./img/iconeBusca.svg" alt="">
+                        <img src="src/img/iconeBusca.svg" alt="icone de busca">
                     </div>
                 </form>
             </div>
-            <a href="#" class="btn btn--bg-branco">Login</a>
+            <a href="login.html" class="btn btn--bg-branco">Login</a>
         </nav>   
     </header>
 
-<main >
+<main class="conteudo__principal">
 
     <article class="banner">
-        <img src="./img/banner.png" alt="imagem de uma mao segurando um cogumelo do jogo mario" class="banner__imagem">
+        <img src="src/img/banner.png" alt="imagem de uma mao segurando um cogumelo do jogo mario" class="banner__imagem">
         <div class="banner__texto">
             <h1 class="banner__titulo">Dezembro promocional</h1>
             <p class="banner__paragrafo">Produtos selecionados com 33% de desconto</p>
@@ -43,49 +48,49 @@
                 <h2 class="secao__nome">Star Wars</h2>
                 <div class="secao__ver-tudo">
                     <p class="secao__texto">ver tudo</p>
-                    <img src="./img/setaDireita.svg" alt="icone de seta para direita" class="icone">
+                    <img src="src/img/setaDireita.svg" alt="icone de seta para direita" class="icone">
                 </div>
             </div>
             
             <div class="produtos__exibidos">
                 
                 <article class="produto">
-                    <img src="./img/starWars/starWars1.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/starWars/starWars1.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
                 </article>
                 
                 <article class="produto">
-                    <img src="./img/starWars/starWars2.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/starWars/starWars2.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
                 </article>
                 
                 <article class="produto">
-                    <img src="./img/starWars/starWars3.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/starWars/starWars3.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
                 </article>
                 
                 <article class="produto">
-                    <img src="./img/starWars/starWars4.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/starWars/starWars4.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
                 </article>
                 
                 <article class="produto">
-                    <img src="./img/starWars/starWars5.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/starWars/starWars5.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
                 </article>
 
                 <article class="produto">
-                    <img src="./img/starWars/starWars6.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/starWars/starWars6.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
@@ -99,49 +104,49 @@
                 <h2 class="secao__nome">Consoles</h2>
                 <div class="secao__ver-tudo">
                     <p class="secao__texto">ver tudo</p>
-                    <img src="./img/setaDireita.svg" alt="icone de seta para direita" class="icone">
+                    <img src="src/img/setaDireita.svg" alt="icone de seta para direita" class="icone">
                 </div>
             </div>
             
             <div class="produtos__exibidos">
                 
                 <article class="produto">
-                    <img src="./img/consoles/console1.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/consoles/console1.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
                 </article>
                 
                 <article class="produto">
-                    <img src="./img/consoles/console2.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/consoles/console2.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
                 </article>
                 
                 <article class="produto">
-                    <img src="./img/consoles/console3.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/consoles/console3.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
                 </article>
                 
                 <article class="produto">
-                    <img src="./img/consoles/console4.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/consoles/console4.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
                 </article>
                 
                 <article class="produto">
-                    <img src="./img/consoles/console5.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/consoles/console5.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
                 </article>
 
                 <article class="produto">
-                    <img src="./img/consoles/console6.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/consoles/console6.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
@@ -152,52 +157,52 @@
         <div class="produtos">
         
             <div class="secao__titulo">
-                <h2 class="secao__nome">Consoles</h2>
+                <h2 class="secao__nome">Diversos</h2>
                 <div class="secao__ver-tudo">
                     <p class="secao__texto">ver tudo</p>
-                    <img src="./img/setaDireita.svg" alt="icone de seta para direita" class="icone">
+                    <img src="src/img/setaDireita.svg" alt="icone de seta para direita" class="icone">
                 </div>
             </div>
             
             <div class="produtos__exibidos">
                 
                 <article class="produto">
-                    <img src="./img/diversos/diversos1.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/diversos/diversos1.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
                 </article>
                 
                 <article class="produto">
-                    <img src="./img/diversos/diversos2.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/diversos/diversos2.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
                 </article>
                 
                 <article class="produto">
-                    <img src="./img/diversos/diversos3.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/diversos/diversos3.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
                 </article>
                 
                 <article class="produto">
-                    <img src="./img/diversos/diversos4.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/diversos/diversos4.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
                 </article>
                 
                 <article class="produto">
-                    <img src="./img/diversos/diversos5.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/diversos/diversos5.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
                 </article>
 
                 <article class="produto">
-                    <img src="./img/diversos/diversos6.png" alt="imagem de produto do starWars" class="produto__imagem">
+                    <img src="src/img/diversos/diversos6.png" alt="imagem de produto do starWars" class="produto__imagem">
                     <p class="produto__titulo">Produto XYZ</p>
                     <p class="produto__valor">R$60,00</p>
                     <a href="" class="produto__link">ver produto</a>
@@ -209,16 +214,34 @@
 
 <footer class="rodape">
     <section class="caixa">
-        <img src="img/logoRodape.png" class="rodape__logo"></img>
-        <div>
-            
+        <a href="index.html"><img src="src/img/logoRodape.png" class="rodape__logo"></a>
+        <div class="infos">
+            <ul class="info__lista">
+                <li><a href="#" class="infos__link">Quem somos nós</a></li>
+                <li><a href="#" class="infos__link">Politica de privacidade</a></li>
+                <li><a href="#" class="infos__link">Programa de fidelidade</a></li>
+                <li><a href="#" class="infos__link">Nossas lojas</a></li>
+                <li><a href="#" class="infos__link">Quero ser franquiado</a></li>
+                <li><a href="#" class="infos__link">Anuncie Aqui</a></li>
+            </ul>
         </div>
-        <div></div>
+        <div class="fale-conosco">
+            <p class="fale-conosco__titulo">Fale conosco</p>
+            <form class="fomulario">
+                <div class="box box-nome">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" class="input__nome">
+                </div>
+                <div class="box box-mensagem">
+                    <label for="mensagem">Escreva sua mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="60" rows="20"></textarea>
+                </div>                
+            </form>
+            <button class="btn btn--bg-azul">Eviar mensagem</button>
+        </div>
     </section>
+    <p class="credito">Desenvolvido por <a  href="https://github.com/Otavio-Magalhaes" target="_blank">Otavio Magalhães</a></p>
 </footer>
-
-
-
 
 
 
